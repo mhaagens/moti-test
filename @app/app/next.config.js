@@ -9,6 +9,7 @@ const withTM = require("next-transpile-modules")([
   "@dripsy/core",
   "moti",
   "@motify/core",
+  "@motify/components",
 ]);
 
 module.exports = withPlugins(
